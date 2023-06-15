@@ -14,6 +14,12 @@
 # limitations under the License.
 #
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.camera.privapp.list=com.motorola.camera3
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.vendor.camera.privapp.list=com.motorola.camera3
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
