@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_eqs.mk
+    $(LOCAL_DIR)/hentai_eqs.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_eqs-user \
-    lineage_eqs-userdebug \
-    lineage_eqs-eng
+    hentai_eqs-user \
+    hentai_eqs-userdebug \
+    hentai_eqs-eng

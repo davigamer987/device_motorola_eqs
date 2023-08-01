@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from eqs device
 $(call inherit-product, device/motorola/eqs/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common HentaiOS stuff.
+$(call inherit-product, vendor/hentai/config/common_telephony.mk)
 
-PRODUCT_NAME := lineage_eqs
+PRODUCT_NAME := hentai_eqs
 PRODUCT_DEVICE := eqs
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
