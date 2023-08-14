@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from eqs device
 $(call inherit-product, device/motorola/eqs/device.mk)
 
-# Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common RisingOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_eqs
+PRODUCT_NAME := lineage_eqs
 PRODUCT_DEVICE := eqs
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
@@ -34,6 +34,14 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=eqs_ge \
-    PRIVATE_BUILD_DESC="eqs_ge-user 12 S3SQS32.16-72-31-3 47c58c-b5d541 release-keys"
+    PRIVATE_BUILD_DESC="eqs_ge-user 13 T1SQ33.15-11-137-10 71a49-d8d2b release-keys"
 
-BUILD_FINGERPRINT := motorola/eqs_ge/msi:12/S3SQS32M.16-72-31-3/47c58c-b5d541:user/release-keys
+BUILD_FINGERPRINT := motorola/eqs_ge/msi:13/T1SQ33.15-11-137-10/71a49-d8d2b:user/release-keys
+
+RISING_CHIPSET := "SM8475"
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+RISING_PACKAGE_TYPE := "PIXEL"
+TARGET_HAS_UDFPS := true
+RISING_MAINTAINER := "Davi"
+TARGET_SUPPORTS_QUICK_TAP := true
