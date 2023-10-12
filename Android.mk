@@ -17,5 +17,12 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),eqs)
+
 include $(call all-makefiles-under,$(LOCAL_PATH))
+
+$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr: $(wildcard $(PRODUCT_VENDOR_KERNEL_HEADERS)/*)
+	rm -rf $@
+	mkdir -p $@/include
+	cp -a $(PRODUCT_VENDOR_KERNEL_HEADERS)/. $@/include
+
 endif

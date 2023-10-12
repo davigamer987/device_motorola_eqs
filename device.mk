@@ -98,5 +98,9 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
+# Kernel Headers
+PRODUCT_VENDOR_KERNEL_HEADERS += \
+	device/motorola/eqs-kernel/kernel-headers
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/eqs/eqs-vendor.mk)
