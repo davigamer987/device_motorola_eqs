@@ -36,7 +36,8 @@ $(call inherit-product, device/motorola/sm8475-common/sm8475.mk)
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksResEqs \
-    SettingsProviderResEqs
+    SettingsProviderResEqs \
+    SystemUIResEqs
 
 # Audio
 PRODUCT_COPY_FILES += \
