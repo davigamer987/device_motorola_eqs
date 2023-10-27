@@ -15,4 +15,7 @@
     <dimen name="status_bar_height_landscape">24.0dip</dimen>
 
     <dimen name="status_bar_padding_top_portrait">10.0px</dimen>
+
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">8dp</dimen>
 </resources>
