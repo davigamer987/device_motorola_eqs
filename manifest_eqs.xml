@@ -1,16 +1,16 @@
 <manifest version="2.0" type="device">
-	<hal format="hidl">
-        <name>vendor.lineage.livedisplay</name>
+    <hal format="hidl">
+        <name>android.hardware.secure_element</name>
         <transport>hwbinder</transport>
-        <version>2.1</version>
+        <version>1.2</version>
         <interface>
-            <name>ISunlightEnhancement</name>
-            <instance>default</instance>
+            <name>ISecureElement</name>
+            <instance>SIM1</instance>
+            <instance>SIM2</instance>
+            <instance>eSE1</instance>
         </interface>
-        <interface>
-            <name>IAntiFlicker</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.0::IPictureAdjustment/default</fqname>
-	</hal>
+        <fqname>@1.2::ISecureElement/SIM1</fqname>
+        <fqname>@1.2::ISecureElement/SIM2</fqname>
+        <fqname>@1.2::ISecureElement/eSE1</fqname>
+    </hal>
 </manifest>
