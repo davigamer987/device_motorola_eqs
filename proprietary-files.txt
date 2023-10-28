@@ -22,6 +22,17 @@ vendor/lib/rfsa/adsp/libvpt_action_recognition.so|ff8198eaab4dace8388dcaf876e471
 # Camera
 vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc
+vendor/bin/hw/motorola.hardware.camera.provider@2.4-external-service
+vendor/etc/init/motorola.hardware.camera.provider@2.4-external-service.rc
+vendor/lib/motorola.hardware.camera.provider@2.4-external.so
+vendor/lib/android.hardware.camera.provider@2.4-external.so
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib/android.hardware.camera.provider@2.4.so
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
+vendor/lib64/android.hardware.camera.provider@2.4-external.so
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/android.hardware.camera.provider@2.4.so
 vendor/etc/eva/facedetection/model3.dat
 vendor/etc/face3d/qcnn_concat_file_model-0324_2_encrypted
 vendor/lib/camera/com.qti.ois.mot_bu63169.so
