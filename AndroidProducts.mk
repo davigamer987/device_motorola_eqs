@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/hentai_eqs.mk
+    $(LOCAL_DIR)/rising_eqs.mk
 
 COMMON_LUNCH_CHOICES := \
-    hentai_eqs-user \
-    hentai_eqs-userdebug \
-    hentai_eqs-eng
+    rising_eqs-user \
+    rising_eqs-userdebug \
+    rising_eqs-eng
