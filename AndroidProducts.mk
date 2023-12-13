@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_eqs.mk
+    $(LOCAL_DIR)/rising_eqs.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_eqs-user \
-    aosp_eqs-userdebug \
-    aosp_eqs-eng
+    rising_eqs-user \
+    rising_eqs-userdebug \
+    rising_eqs-eng
