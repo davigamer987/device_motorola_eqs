@@ -21,18 +21,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from eqs device
 $(call inherit-product, device/motorola/eqs/device.mk)
 
-# Inherit some common Project Elixir stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common RisingOS stuff.
+$(call inherit-product, vendor/rising/config/rising.mk)
 
-# Official-ify
-ELIXIR_BUILD_TYPE := OFFICIAL
-IS_PHONE := true
-CUSTOM_BUILD_TYPE := OFFICIAL
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_CALL_RECORDING := true
-EXTRA_UDFPS_ANIMATIONS := true
+# RisingOS Flags
+WITH_GMS := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := false
+TARGET_HAS_UDFPS := true
+TARGET_USE_GOOGLE_TELEPHONY := true
+TARGET_PREBUILT_PIXEL_LAUNCHER := false
 
-PRODUCT_NAME := aosp_eqs
+PRODUCT_NAME := rising_eqs
 PRODUCT_DEVICE := eqs
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
