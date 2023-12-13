@@ -79,5 +79,9 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 # Security
 VENDOR_SECURITY_PATCH := 2023-07-01
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_eqs
+TARGET_RECOVERY_DEVICE_MODULES := libinit_eqs
+
 # inherit from the proprietary version
 include vendor/motorola/eqs/BoardConfigVendor.mk
