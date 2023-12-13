@@ -84,6 +84,14 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# PowerShare
+PRODUCT_PACKAGES += \
+    vendor.lineage.powershare@1.0-service.eqs
+
+# Touch
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.eqs
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_dne/android.hardware.nfc.ese.xml \
