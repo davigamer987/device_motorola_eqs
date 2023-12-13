@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ -n "${CLEAN_DT_REPOS}" ]; then
     if [ "$CLEAN_DT_REPOS" = "True" ]; then
         echo "Cleaning old repos before cloning"
