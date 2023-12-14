@@ -8,21 +8,41 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <!-- PowerShare -->
     <hal format="hidl" optional="true">
-        <name>vendor.qti.hardware.perf</name>
-        <transport>hwbinder</transport>
-        <version>2.3</version>
+        <name>vendor.lineage.powershare</name>
+        <version>1.0</version>
         <interface>
-            <name>IPerf</name>
+            <name>IPowerShare</name>
             <instance>default</instance>
         </interface>
     </hal>
+    <!-- Touch -->
     <hal format="hidl" optional="true">
-        <name>vendor.qti.hardware.servicetracker</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
+        <name>vendor.lineage.touch</name>
+        <version>1.0</version>
         <interface>
-            <name>IServicetracker</name>
+            <name>IGloveMode</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IHighTouchPollingRate</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IKeyDisabler</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IKeySwapper</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>ITouchscreenGesture</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IStylusMode</name>
             <instance>default</instance>
         </interface>
     </hal>
