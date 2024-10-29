@@ -34,8 +34,11 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct="eqs_ge" \
-    BuildDesc="eqs_ge-user 14 U1SQS34.52-21-1-10 504bf-893e0 release-keys" \
-    BuildFingerprint="motorola/eqs_ge/eqs:14/U1SQS34.52-21-1-10/504bf-893e0:user/release-keys"
+    DeviceName="eqs" \
+    SystemDevice="eqs" \
+    SystemName="eqs" \
+    BuildDesc="eqs_ge-user 14 U1SQS34.52-21-1-13 1b02e-87c131 release-keys" \
+    BuildFingerprint="motorola/eqs_ge/eqs:14/U1SQS34.52-21-1-13/1b02e-87c131:user/release-keys"
 
 # RisingOS Flags
 WITH_GMS := true
