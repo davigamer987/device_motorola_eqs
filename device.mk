@@ -92,5 +92,9 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator.service.moto_sm8475-richtap
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/eqs/eqs-vendor.mk)
